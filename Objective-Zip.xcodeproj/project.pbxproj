@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B0A245168EAEA80024A69E /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B0A244168EAEA80024A69E /* libcurl.4.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1D3623260D0F684500981E51 /* Objective_ZipAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Objective_ZipAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -54,7 +55,7 @@
 		96D49C8B14CF160000C927AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D49C2514CEE20E00C927AA /* Cocoa.framework */; };
 		96D49C9714CF16B100C927AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D49C2514CEE20E00C927AA /* Cocoa.framework */; };
 		96D49C9D14CF16B100C927AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96D49C9B14CF16B100C927AA /* InfoPlist.strings */; };
-		96D49CA714CF193100C927AA /* libObjective-Zip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D49C9014CF160000C927AA /* libObjective-Zip.a */; };
+		96D49CA714CF193100C927AA /* libObjective-Zip-Intel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D49C9014CF160000C927AA /* libObjective-Zip-Intel.a */; };
 		96D49CA914CF194600C927AA /* ZipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D353E10E56BD300B63EFA /* ZipFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96D49CAA14CF194A00C927AA /* ZipWriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6D357410E5797600B63EFA /* ZipWriteStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96D49CAB14CF195200C927AA /* ZipReadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBE431610E95FA300AC9ED3 /* ZipReadStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,7 +63,6 @@
 		96D49CB214CF1F9E00C927AA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D49CB114CF1F9E00C927AA /* libz.dylib */; };
 		96F9F406164E96E500AEB953 /* Objective-Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D49C9614CF16B100C927AA /* Objective-Zip.framework */; };
 		96F9F40C16503C2400AEB953 /* curl_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F9F40A16503C2400AEB953 /* curl_io.c */; };
-		96F9F416165098B300AEB953 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F9F415165098B300AEB953 /* libcurl.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +110,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02B0A244168EAEA80024A69E /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.4.dylib; path = ../../../../../../../usr/lib/libcurl.4.dylib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* Objective_ZipAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objective_ZipAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* Objective_ZipAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Objective_ZipAppDelegate.m; sourceTree = "<group>"; };
@@ -165,7 +166,7 @@
 		96D49C2814CEE20E00C927AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		96D49C2914CEE20E00C927AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		96D49C2A14CEE20E00C927AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		96D49C9014CF160000C927AA /* libObjective-Zip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjective-Zip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D49C9014CF160000C927AA /* libObjective-Zip-Intel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjective-Zip-Intel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D49C9614CF16B100C927AA /* Objective-Zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Objective-Zip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D49C9A14CF16B100C927AA /* Objective-Zip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objective-Zip-Info.plist"; sourceTree = "<group>"; };
 		96D49C9C14CF16B100C927AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -231,9 +232,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F9F416165098B300AEB953 /* libcurl.dylib in Frameworks */,
+				02B0A245168EAEA80024A69E /* libcurl.4.dylib in Frameworks */,
 				96D49CB214CF1F9E00C927AA /* libz.dylib in Frameworks */,
-				96D49CA714CF193100C927AA /* libObjective-Zip.a in Frameworks */,
+				96D49CA714CF193100C927AA /* libObjective-Zip-Intel.a in Frameworks */,
 				96D49C9714CF16B100C927AA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +258,7 @@
 			children = (
 				1D6058910D05DD3D006BFB54 /* Objective-Zip Test.app */,
 				96D49C2414CEE20E00C927AA /* libObjective-Zip.a */,
-				96D49C9014CF160000C927AA /* libObjective-Zip.a */,
+				96D49C9014CF160000C927AA /* libObjective-Zip-Intel.a */,
 				96D49C9614CF16B100C927AA /* Objective-Zip.framework */,
 				96A68BDB164E6F9B00C0E535 /* ZipFileUnitTest.octest */,
 				96A68BFD1651488200C0E535 /* objective-zip_test */,
@@ -268,6 +269,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				02B0A244168EAEA80024A69E /* libcurl.4.dylib */,
 				96F9F415165098B300AEB953 /* libcurl.dylib */,
 				96C8290414CF3A4900E04CBB /* Readme.markdown */,
 				96C8290614CF44C400E04CBB /* Acknowledgements.rtf */,
@@ -553,7 +555,7 @@
 			);
 			name = "Objective-Zip Intel";
 			productName = "Objective-Zip";
-			productReference = 96D49C9014CF160000C927AA /* libObjective-Zip.a */;
+			productReference = 96D49C9014CF160000C927AA /* libObjective-Zip-Intel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		96D49C9514CF16B100C927AA /* Objective-Zip */ = {
@@ -581,7 +583,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Objective-Zip" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -931,10 +933,11 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Objective-Zip";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -949,9 +952,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "Objective-Zip";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -959,7 +963,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -974,9 +979,9 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "Objective-Zip";
+				PRODUCT_NAME = "Objective-Zip-Intel";
 			};
 			name = Debug;
 		};
@@ -984,19 +989,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					USE_CURL,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = USE_CURL;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = "Objective-Zip";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "Objective-Zip-Intel";
 			};
 			name = Release;
 		};
@@ -1005,6 +1009,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1025,7 +1030,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				INFOPLIST_FILE = "Objective-Zip Framework/Objective-Zip-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1038,6 +1043,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1047,14 +1053,12 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Objective-Zip Framework/Objective-Zip-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					USE_CURL,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = USE_CURL;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				INFOPLIST_FILE = "Objective-Zip Framework/Objective-Zip-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
@@ -1064,9 +1068,15 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Debug;
@@ -1074,9 +1084,15 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Release;
