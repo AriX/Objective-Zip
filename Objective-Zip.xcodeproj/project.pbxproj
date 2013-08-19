@@ -982,6 +982,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "Objective-Zip-Intel";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -1001,6 +1002,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "Objective-Zip-Intel";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
