@@ -117,7 +117,7 @@ uLong zlib_curl_write(voidpf opaque, voidpf stream, const void *buf, uLong size)
 long zlib_curl_tell(voidpf opaque, voidpf stream)
 {
 	zlib_curl_t zcurl = stream;
-	return zcurl->offset;
+	return (long)zcurl->offset;
 }
 
 long zlib_curl_seek(voidpf opaque, voidpf stream, uLong offset, int origin)

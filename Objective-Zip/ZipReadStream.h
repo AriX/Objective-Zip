@@ -38,6 +38,8 @@ struct unzFile__;
 @interface ZipReadStream : NSObject {
 @private
 	struct unzFile__ * _unzFile;
+    
+    NSString *_fileNameInZip;
 }
 
 @property (nonatomic, readonly) NSString *fileNameInZip;

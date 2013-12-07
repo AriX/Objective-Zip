@@ -38,6 +38,8 @@ struct   zipFile__;
 @interface ZipWriteStream : NSObject {
 @private
 	struct zipFile__ * _zipFile;
+    
+    NSString *_fileNameInZip;
 }
 @property (nonatomic, readonly) NSString *fileNameInZip;
 

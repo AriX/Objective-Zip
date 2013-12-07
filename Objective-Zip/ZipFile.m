@@ -51,6 +51,8 @@ static NSString *ZipFileErrorDomain = @"ZipFileErrorDomain";
 
 @synthesize fileName = _fileName;
 @synthesize mode = _mode;
+@synthesize filesCount = _filesCount;
+@synthesize containedFiles = _containedFiles;
 
 + (id)zipFileWithFileName:(NSString *)fileName mode:(ZipFileMode)mode error:(NSError **)outError
 {

@@ -58,6 +58,11 @@ typedef enum {
 @private
 	struct zipFile__ * _zipFile;
 	struct unzFile__ * _unzFile;
+    
+    NSString *_fileName;
+    ZipFileMode _mode;
+    NSUInteger _filesCount;
+    NSArray *_containedFiles;
 }
 
 @property (nonatomic, readonly) NSString *fileName;
